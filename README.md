@@ -4,15 +4,13 @@
 
 * VirtualBox 5.01
 
-Files from host are found at
-
-`/vagrant/`
+Files from host are found at `/vagrant/`.
 
 in the machine.
 
 ### Setup
 
-Add the archlinux box where going to use. I found it at https://app.vagrantup.com/archlinux/boxes/archlinux.
+Add the archlinux box. I found this one at https://app.vagrantup.com/archlinux/boxes/archlinux.
 
 `vagrant box add archlinux/archlinux`
 
@@ -49,8 +47,8 @@ Within the machine
 
 `exit`
 
-`vagrant destroy**
+`vagrant destroy`
 
-Use Ctrl + D or do execute `logout` in the machine.
+Use Ctrl + D or do `logout` in the machine.
 
 
